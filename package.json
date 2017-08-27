@@ -1,0 +1,29 @@
+{
+  "name": "typescript-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjohnson1106/TypeScript-Node-AWS-Lambda-Function-Deployment-Example.git"
+  },
+  "keywords": [
+    "lambda",
+    "Typescript",
+    "Serverless"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjohnson1106/TypeScript-Node-AWS-Lambda-Function-Deployment-Example/issues"
+  },
+  "homepage": "https://github.com/tjohnson1106/TypeScript-Node-AWS-Lambda-Function-Deployment-Example#readme",
+  "devDependencies": {
+    "serverless-offline": "^3.15.3",
+    "serverless-plugin-typescript": "^1.1.1"
+  },
+  "dependencies": {}
+}
