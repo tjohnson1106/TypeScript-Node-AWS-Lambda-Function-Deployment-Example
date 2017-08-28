@@ -1,4 +1,4 @@
-'use strict';
+
 
 import { Handler, Context, Callback } from 'aws-lambda';
 
@@ -16,8 +16,6 @@ const hello: Handler = (event: any, context: Context, callback: Callback) => {
   };
 
   callback(undefined, response);
-   // Use this code if you don't use the http event with the LAMBDA-PROXY integration
-  // callback(null, { message: 'Go Serverless v1.0! Your function executed successfully!', event });
 };
 
 export { hello }
