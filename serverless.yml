@@ -94,6 +94,12 @@ plugins:
 #    environment:
 #      variable2: value2
 
+package:
+  exclude:
+    - node_modules/**/*
+  include:
+    handler.ts
+
 # you can add CloudFormation resource templates here
 #resources:
 #  Resources:
