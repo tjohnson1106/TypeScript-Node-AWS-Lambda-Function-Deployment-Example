@@ -86,6 +86,10 @@ functions:
 #          pool: MyUserPool
 #          trigger: PreSignUp
 
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+
 #    Define function environment variables here
 #    environment:
 #      variable2: value2
